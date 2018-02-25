@@ -7,11 +7,9 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule, JsonpModule, Http, RequestOptions } from '@angular/http';
 
 import { AppRoutingModule } from './app-routing/app-routing.module';
-import { ConfirmationPopoverModule } from 'angular-confirmation-popover';
-import { SelectModule } from 'ng-select';
 
 import {AppComponent} from './app.component';
-import {DashboardComponent} from './dashboard/dashboard.component';
+import {HomeComponent} from './home/home.component';
 
 import {AuthentificationService} from '../services/authentification.service';
 import {GuardService} from '../services/guard.service';
@@ -24,15 +22,11 @@ import {GuardAdminService} from '../services/guard-admin.service';
         ReactiveFormsModule,
         FormsModule,
         HttpModule,
-        JsonpModule,
-        SelectModule,
-        ConfirmationPopoverModule.forRoot({
-            focusButton: 'confirm'
-        })
+        JsonpModule
     ],
     declarations: [
         AppComponent,
-        DashboardComponent
+        HomeComponent
     ],
     providers: [
         AuthentificationService,
