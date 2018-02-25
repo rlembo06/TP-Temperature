@@ -1,0 +1,7 @@
+/temperature-back/node_modules/
+/temperature-back/package-lock.json
+
+/temperature-front/node_modules/
+/temperature-front/package-lock.json
+
+/.idea/
