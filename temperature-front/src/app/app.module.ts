@@ -8,6 +8,8 @@ import { HttpModule, JsonpModule, Http, RequestOptions } from '@angular/http';
 
 import { AppRoutingModule } from './app-routing/app-routing.module';
 
+import { ChartsModule } from 'ng2-charts';
+
 import {AppComponent} from './app.component';
 import {HomeComponent} from './home/home.component';
 
@@ -22,7 +24,8 @@ import {GuardAdminService} from '../services/guard-admin.service';
         ReactiveFormsModule,
         FormsModule,
         HttpModule,
-        JsonpModule
+        JsonpModule,
+        ChartsModule
     ],
     declarations: [
         AppComponent,
