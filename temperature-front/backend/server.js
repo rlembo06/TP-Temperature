@@ -14,10 +14,9 @@ app.use(bodyParser.json()); // for parsing application/json
 app.use(bodyParser.urlencoded({ extended: false })); // for parsing application/x-www-form-urlencoded
 
 // Import API Routes
-app.use('/user', require('./api/user.api'));
-app.use('/admin', require('./api/admin.api'));
+app.use('/data', require('./api/data.api'));
 
 port = process.env.PORT || 3000;
 app.listen(port, function () {
     console.log("listening to port " + port);
-})
+});

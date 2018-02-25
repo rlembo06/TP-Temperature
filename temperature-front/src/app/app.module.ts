@@ -13,9 +13,7 @@ import { ChartsModule } from 'ng2-charts';
 import {AppComponent} from './app.component';
 import {HomeComponent} from './home/home.component';
 
-import {AuthentificationService} from '../services/authentification.service';
-import {GuardService} from '../services/guard.service';
-import {GuardAdminService} from '../services/guard-admin.service';
+import {TemperatureService} from '../services/temperature.service';
 
 @NgModule({
     imports: [
@@ -32,9 +30,7 @@ import {GuardAdminService} from '../services/guard-admin.service';
         HomeComponent
     ],
     providers: [
-        AuthentificationService,
-        GuardService,
-        GuardAdminService
+        TemperatureService
     ],
     bootstrap: [AppComponent]
 })
