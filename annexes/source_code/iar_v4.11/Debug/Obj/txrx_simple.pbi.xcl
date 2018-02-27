@@ -1,14 +1,14 @@
-"C:\Users\rlembo\Documents\TP-Temperature\annexes\source_code\c_files\txrx_simple.c"
+"E:\TEMPERATURE\annexes\SOURCE_CODE\c_files\txrx_simple.c"
 -std=c99
 -ferror-limit=0
 -I
-C:\Users\rlembo\Documents\TP-Temperature\annexes\source_code\iar_v4.11\..\drivers\bsp
+E:\temperature\annexes\source_code\iar_v4.11\..\drivers\bsp
 -I
-C:\Users\rlembo\Documents\TP-Temperature\annexes\source_code\iar_v4.11\..\drivers\bsp\drivers
+E:\temperature\annexes\source_code\iar_v4.11\..\drivers\bsp\drivers
 -I
-C:\Users\rlembo\Documents\TP-Temperature\annexes\source_code\iar_v4.11\..\drivers\bsp\boards\EZ430RF
+E:\temperature\annexes\source_code\iar_v4.11\..\drivers\bsp\boards\EZ430RF
 -I
-C:\Users\rlembo\Documents\TP-Temperature\annexes\source_code\iar_v4.11\..\drivers\mrfi
+E:\temperature\annexes\source_code\iar_v4.11\..\drivers\mrfi
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\430\inc\dlib
 -I
@@ -16,13 +16,13 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\430\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\430\inc\dlib\c
 -I
-C:\Users\rlembo\Documents\TP-Temperature\annexes\source_code\drivers\bsp
+E:\temperature\annexes\source_code\drivers\bsp
 -I
-C:\Users\rlembo\Documents\TP-Temperature\annexes\source_code\drivers\bsp\drivers
+E:\temperature\annexes\source_code\drivers\bsp\drivers
 -I
-C:\Users\rlembo\Documents\TP-Temperature\annexes\source_code\drivers\bsp\boards\EZ430RF
+E:\temperature\annexes\source_code\drivers\bsp\boards\EZ430RF
 -I
-C:\Users\rlembo\Documents\TP-Temperature\annexes\source_code\drivers\mrfi
+E:\temperature\annexes\source_code\drivers\mrfi
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

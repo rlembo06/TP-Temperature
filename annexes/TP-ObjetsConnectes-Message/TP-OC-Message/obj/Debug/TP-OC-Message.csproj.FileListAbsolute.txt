@@ -18,3 +18,10 @@ C:\Users\rlembo\Documents\TP-Temperature\annexes\TP-ObjetsConnectes-Message\TP-O
 C:\Users\rlembo\Documents\TP-Temperature\annexes\TP-ObjetsConnectes-Message\TP-OC-Message\obj\Debug\TP-OC-Message.csproj.CoreCompileInputs.cache
 C:\Users\rlembo\Documents\TP-Temperature\annexes\TP-ObjetsConnectes-Message\TP-OC-Message\obj\Debug\TP-OC-Message.exe
 C:\Users\rlembo\Documents\TP-Temperature\annexes\TP-ObjetsConnectes-Message\TP-OC-Message\obj\Debug\TP-OC-Message.pdb
+E:\temperature\annexes\TP-ObjetsConnectes-Message\TP-OC-Message\bin\Debug\TP-OC-Message.exe.config
+E:\temperature\annexes\TP-ObjetsConnectes-Message\TP-OC-Message\bin\Debug\TP-OC-Message.exe
+E:\temperature\annexes\TP-ObjetsConnectes-Message\TP-OC-Message\bin\Debug\TP-OC-Message.pdb
+E:\temperature\annexes\TP-ObjetsConnectes-Message\TP-OC-Message\obj\Debug\TP-OC-Message.csprojResolveAssemblyReference.cache
+E:\temperature\annexes\TP-ObjetsConnectes-Message\TP-OC-Message\obj\Debug\TP-OC-Message.csproj.CoreCompileInputs.cache
+E:\temperature\annexes\TP-ObjetsConnectes-Message\TP-OC-Message\obj\Debug\TP-OC-Message.exe
+E:\temperature\annexes\TP-ObjetsConnectes-Message\TP-OC-Message\obj\Debug\TP-OC-Message.pdb
