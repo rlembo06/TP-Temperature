@@ -7,20 +7,29 @@
         <outputs>
             <file>$PROJ_DIR$\led_steady.c</file>
             <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
-            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
-            <file>$PROJ_DIR$\main.c</file>
-            <file>$PROJ_DIR$\..\c_files\led_steady.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\led_steady.__cstat.et</file>
-            <file>$PROJ_DIR$\Debug\Obj\led_steady.r43</file>
-            <file>$PROJ_DIR$\Debug\Exe\led_steady.d43</file>
-            <file>$TOOLKIT_DIR$\inc\io430f2274.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\led_steady.pbi</file>
             <file>$TOOLKIT_DIR$\config\linker\lnk430f2274.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
             <file>$TOOLKIT_DIR$\inc\io430.h</file>
             <file>$TOOLKIT_DIR$\inc\io430x22x4.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\led_steady.pbi</file>
+            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\led_steady.r43</file>
+            <file>$TOOLKIT_DIR$\inc\io430f2274.h</file>
+            <file>$PROJ_DIR$\..\c_files\led_steady.c</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\Debug\Exe\led_steady.d43</file>
+            <file>$PROJ_DIR$\Debug\Obj\led_steady.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
         </outputs>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>XLINK</name>
+                    <file> 12</file>
+                </tool>
+            </outputs>
+        </file>
         <file>
             <name>$PROJ_DIR$\led_steady.c</name>
             <outputs>
@@ -30,36 +39,17 @@
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 11</file>
+                    <file> 6</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICC430</name>
-                    <file> 13 14</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 13</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\main.c</name>
-            <outputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 2</file>
+                    <file> 4 5</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
                     <file> 4</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 13</file>
                 </tool>
             </inputs>
         </file>
@@ -71,22 +61,41 @@
                     <file> 8</file>
                 </tool>
                 <tool>
-                    <name>__cstat</name>
-                    <file> 7</file>
+                    <name>BICOMP</name>
+                    <file> 6</file>
                 </tool>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 11</file>
+                    <name>__cstat</name>
+                    <file> 13</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICC430</name>
-                    <file> 13 10 3</file>
+                    <file> 4 9 7</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 3 10 13</file>
+                    <file> 7 9 4</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 3</file>
+                </tool>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 14</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 4</file>
                 </tool>
             </inputs>
         </file>
@@ -95,18 +104,9 @@
             <inputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 12 8 1</file>
+                    <file> 2 8 1</file>
                 </tool>
             </inputs>
-        </file>
-        <file>
-            <name>[ROOT_NODE]</name>
-            <outputs>
-                <tool>
-                    <name>XLINK</name>
-                    <file> 9</file>
-                </tool>
-            </outputs>
         </file>
     </configuration>
     <configuration>

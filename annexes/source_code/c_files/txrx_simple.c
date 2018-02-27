@@ -41,6 +41,52 @@ void MRFI_RxCompleteISR()
   P1OUT ^= 0x02;
 } 
 
+/* 
+?~??????23.5C 00.5
+
+void MRFI_RxCompleteISR()
+{
+  int i;
+  mrfiPacket_t packet;
+  
+  MRFI_Receive(&packet);
+  //char output [] = {"   \r\n"};
+  char output[] = {"                  "};
+  for (i=1; i<26; i++){
+    output[i] = packet.frame[i];
+  }
+  
+  TXString(output, sizeof output);
+  TXString("\n\r", 1);
+  //TXString("essai\n\r", 6);
+  
+  P1OUT ^= 0x02;
+}
+*/
+
+/*
+Origine
+
+void MRFI_RxCompleteISR()
+{
+  int i;
+  mrfiPacket_t packet;
+  
+  MRFI_Receive(&packet);
+  //char output [] = {"   \r\n"};
+  char output[] = {"                  "};
+  for (i=9; i<26; i++){
+    output[i-9] = packet.frame[i];
+  }
+  
+  TXString(output, sizeof output);
+  TXString("\n\r", 1);
+  //TXString("essai\n\r", 6);
+  
+  P1OUT ^= 0x02;
+} 
+*/
+
 #pragma vector=PORT1_VECTOR
 __interrupt void Port_1 (void)
 {

@@ -25,6 +25,7 @@ namespace TempReader
 
             mySerialPort.Open();
 
+
             Console.WriteLine("Press any key to continue...");
             Console.WriteLine();
             Console.ReadKey();

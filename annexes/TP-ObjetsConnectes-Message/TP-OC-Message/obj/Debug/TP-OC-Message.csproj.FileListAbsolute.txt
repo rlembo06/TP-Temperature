@@ -11,3 +11,10 @@ E:\Lien vers Cours\Cours-LP_IDSE\Projet_Groupe\TP-Objets_Connectes-Temperature\T
 E:\Lien vers Cours\Cours-LP_IDSE\Projet_Groupe\TP-Objets_Connectes-Temperature\TP-ObjetsConnectes-Message\TP-OC-Message\obj\Debug\TP-OC-Message.csproj.CoreCompileInputs.cache
 E:\Lien vers Cours\Cours-LP_IDSE\Projet_Groupe\TP-Objets_Connectes-Temperature\TP-ObjetsConnectes-Message\TP-OC-Message\obj\Debug\TP-OC-Message.exe
 E:\Lien vers Cours\Cours-LP_IDSE\Projet_Groupe\TP-Objets_Connectes-Temperature\TP-ObjetsConnectes-Message\TP-OC-Message\obj\Debug\TP-OC-Message.pdb
+C:\Users\rlembo\Documents\TP-Temperature\annexes\TP-ObjetsConnectes-Message\TP-OC-Message\bin\Debug\TP-OC-Message.exe.config
+C:\Users\rlembo\Documents\TP-Temperature\annexes\TP-ObjetsConnectes-Message\TP-OC-Message\bin\Debug\TP-OC-Message.exe
+C:\Users\rlembo\Documents\TP-Temperature\annexes\TP-ObjetsConnectes-Message\TP-OC-Message\bin\Debug\TP-OC-Message.pdb
+C:\Users\rlembo\Documents\TP-Temperature\annexes\TP-ObjetsConnectes-Message\TP-OC-Message\obj\Debug\TP-OC-Message.csprojResolveAssemblyReference.cache
+C:\Users\rlembo\Documents\TP-Temperature\annexes\TP-ObjetsConnectes-Message\TP-OC-Message\obj\Debug\TP-OC-Message.csproj.CoreCompileInputs.cache
+C:\Users\rlembo\Documents\TP-Temperature\annexes\TP-ObjetsConnectes-Message\TP-OC-Message\obj\Debug\TP-OC-Message.exe
+C:\Users\rlembo\Documents\TP-Temperature\annexes\TP-ObjetsConnectes-Message\TP-OC-Message\obj\Debug\TP-OC-Message.pdb
