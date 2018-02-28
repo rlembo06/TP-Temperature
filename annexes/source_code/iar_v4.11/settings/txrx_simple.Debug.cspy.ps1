@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "E:\temperature\annexes\source_code\iar_v4.11\settings\txrx_simple.Debug.general.xcl" --backend -f "E:\temperature\annexes\source_code\iar_v4.11\settings\txrx_simple.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "C:\Users\rlembo\Documents\TP-Temperature\annexes\source_code\iar_v4.11\settings\txrx_simple.Debug.general.xcl" --backend -f "C:\Users\rlembo\Documents\TP-Temperature\annexes\source_code\iar_v4.11\settings\txrx_simple.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "E:\temperature\annexes\source_code\iar_v4.11\settings\txrx_simple.Debug.general.xcl" --debug_file=$debugfile --backend -f "E:\temperature\annexes\source_code\iar_v4.11\settings\txrx_simple.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "C:\Users\rlembo\Documents\TP-Temperature\annexes\source_code\iar_v4.11\settings\txrx_simple.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\rlembo\Documents\TP-Temperature\annexes\source_code\iar_v4.11\settings\txrx_simple.Debug.driver.xcl" 
 }

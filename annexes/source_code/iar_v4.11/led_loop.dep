@@ -5,42 +5,65 @@
     <configuration>
         <name>Debug</name>
         <outputs>
+            <file>$PROJ_DIR$\..\c_files\led_loop.c</file>
             <file>$PROJ_DIR$\led_loop.c</file>
             <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
             <file>$TOOLKIT_DIR$\inc\in430.h</file>
             <file>$PROJ_DIR$\Debug\Obj\led_loop.pbi</file>
             <file>$TOOLKIT_DIR$\lib\dlib\dl430fn.r43</file>
             <file>$TOOLKIT_DIR$\config\lnk430F2274.xcl</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\Debug\Exe\led_loop.d43</file>
+            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
+            <file>$TOOLKIT_DIR$\inc\io430.h</file>
             <file>$TOOLKIT_DIR$\inc\io430x22x4.h</file>
             <file>$PROJ_DIR$\Debug\Obj\led_loop.r43</file>
-            <file>$PROJ_DIR$\main.c</file>
             <file>$PROJ_DIR$\Debug\Obj\main.r43</file>
-            <file>$TOOLKIT_DIR$\inc\intrinsics.h</file>
             <file>$PROJ_DIR$\Debug\Obj\led_loop.pbd</file>
-            <file>$PROJ_DIR$\Debug\Exe\led_loop.d43</file>
-            <file>$TOOLKIT_DIR$\inc\io430.h</file>
-            <file>$PROJ_DIR$\..\c_files\led_loop.c</file>
         </outputs>
         <file>
-            <name>$PROJ_DIR$\led_loop.c</name>
+            <name>$PROJ_DIR$\..\c_files\led_loop.c</name>
             <outputs>
                 <tool>
-                    <name>ICC430</name>
-                    <file> 7</file>
+                    <name>BICOMP</name>
+                    <file> 4</file>
                 </tool>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 3</file>
+                    <name>ICC430</name>
+                    <file> 12</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
-                    <name>ICC430</name>
-                    <file> 13 6 2 10</file>
+                    <name>BICOMP</name>
+                    <file> 10 3 9</file>
                 </tool>
                 <tool>
+                    <name>ICC430</name>
+                    <file> 10 11 3 9</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\led_loop.c</name>
+            <outputs>
+                <tool>
                     <name>BICOMP</name>
-                    <file> 13 2 10</file>
+                    <file> 4</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 12</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>BICOMP</name>
+                    <file> 10 3 9</file>
+                </tool>
+                <tool>
+                    <name>ICC430</name>
+                    <file> 10 11 3 9</file>
                 </tool>
             </inputs>
         </file>
@@ -48,27 +71,18 @@
             <name>$PROJ_DIR$\main.c</name>
             <outputs>
                 <tool>
-                    <name>ICC430</name>
-                    <file> 9</file>
+                    <name>BICOMP</name>
+                    <file> 2</file>
                 </tool>
                 <tool>
-                    <name>BICOMP</name>
-                    <file> 1</file>
+                    <name>ICC430</name>
+                    <file> 13</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 13</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Debug\Obj\led_loop.pbd</name>
-            <inputs>
-                <tool>
-                    <name>BILINK</name>
-                    <file> 3</file>
+                    <file> 10</file>
                 </tool>
             </inputs>
         </file>
@@ -77,30 +91,16 @@
             <inputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 5 7 4</file>
+                    <file> 6 12 5</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\c_files\led_loop.c</name>
-            <outputs>
-                <tool>
-                    <name>ICC430</name>
-                    <file> 7</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 3</file>
-                </tool>
-            </outputs>
+            <name>$PROJ_DIR$\Debug\Obj\led_loop.pbd</name>
             <inputs>
                 <tool>
-                    <name>ICC430</name>
-                    <file> 13 6 2 10</file>
-                </tool>
-                <tool>
-                    <name>BICOMP</name>
-                    <file> 13 2 10</file>
+                    <name>BILINK</name>
+                    <file> 4</file>
                 </tool>
             </inputs>
         </file>
@@ -109,7 +109,7 @@
             <outputs>
                 <tool>
                     <name>XLINK</name>
-                    <file> 12</file>
+                    <file> 8</file>
                 </tool>
             </outputs>
         </file>
