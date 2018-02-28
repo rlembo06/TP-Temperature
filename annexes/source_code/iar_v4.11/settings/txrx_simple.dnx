@@ -39,7 +39,7 @@
         <Category>_ 0</Category>
     </Log_file>
     <DebugChecksum>
-        <Checksum>3078269168</Checksum>
+        <Checksum>3977594330</Checksum>
     </DebugChecksum>
     <Stack>
         <FillEnabled>0</FillEnabled>
@@ -106,8 +106,8 @@
     <Aliases>
         <A0>_ "C:\Users\lr706510\Desktop\source_code\drivers\bsp\boards\EZ430RF\bsp_board.c" ""</A0>
         <A1>_ "C:\Users\lr706510\Desktop\source_code\drivers\mrfi\radios\common\mrfi_f1f2.c" ""</A1>
-        <A2>_ "C:\Users\lr706510\Desktop\source_code\drivers\mrfi\radios\family1\mrfi_radio.c" "C:\Users\rlembo\Documents\TP-Temperature\annexes\source_code\drivers\mrfi\radios\family1\mrfi_radio.c"</A2>
-        <A3>_ "C:\Users\lr706510\Desktop\source_code\drivers\mrfi\radios\family1\mrfi_spi.c" ""</A3>
+        <A2>_ "C:\Users\lr706510\Desktop\source_code\drivers\mrfi\radios\family1\mrfi_radio.c" "E:\temperature\annexes\source_code\drivers\mrfi\radios\family1\mrfi_radio.c"</A2>
+        <A3>_ "C:\Users\lr706510\Desktop\source_code\drivers\mrfi\radios\family1\mrfi_spi.c" "E:\temperature\annexes\source_code\drivers\mrfi\radios\family1\mrfi_spi.c"</A3>
         <Count>4</Count>
         <SuppressDialog>1</SuppressDialog>
     </Aliases>

@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "C:\Users\rlembo\Documents\TP-Temperature\annexes\source_code\iar_v4.11\settings\txrx_simple.Debug.general.xcl" --backend -f "C:\Users\rlembo\Documents\TP-Temperature\annexes\source_code\iar_v4.11\settings\txrx_simple.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "E:\temperature\annexes\source_code\iar_v4.11\settings\txrx_simple.Debug.general.xcl" --backend -f "E:\temperature\annexes\source_code\iar_v4.11\settings\txrx_simple.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "C:\Users\rlembo\Documents\TP-Temperature\annexes\source_code\iar_v4.11\settings\txrx_simple.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\rlembo\Documents\TP-Temperature\annexes\source_code\iar_v4.11\settings\txrx_simple.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.0\common\bin\cspybat" -f "E:\temperature\annexes\source_code\iar_v4.11\settings\txrx_simple.Debug.general.xcl" "--debug_file=%~1" --backend -f "E:\temperature\annexes\source_code\iar_v4.11\settings\txrx_simple.Debug.driver.xcl" 
 
 @echo off 
 :end
