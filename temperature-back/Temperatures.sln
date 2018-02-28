@@ -7,7 +7,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temperatures.Service", "Tem
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temperatures.Rest", "Temperatures.Rest\Temperatures.Rest.csproj", "{1987C2E0-D7CC-499A-A5D6-DD6CBB1985AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temperatures.Core", "Temperatures.Core\Temperatures.Core.csproj", "{9D870447-422D-436D-8C6F-191300BCB3A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Temperatures.Core", "Temperatures.Core\Temperatures.Core.csproj", "{9D870447-422D-436D-8C6F-191300BCB3A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temperatures.Resources", "Temperatures.Resources\Temperatures.Resources.csproj", "{7945458B-735C-4D6E-821A-E8856C5B2150}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{9D870447-422D-436D-8C6F-191300BCB3A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9D870447-422D-436D-8C6F-191300BCB3A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9D870447-422D-436D-8C6F-191300BCB3A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7945458B-735C-4D6E-821A-E8856C5B2150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7945458B-735C-4D6E-821A-E8856C5B2150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7945458B-735C-4D6E-821A-E8856C5B2150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7945458B-735C-4D6E-821A-E8856C5B2150}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
