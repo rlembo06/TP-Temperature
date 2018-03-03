@@ -2,12 +2,13 @@
     <div class="col-lg-12">
 
         <h1>Évolution de la température</h1>
-        <h3>Developer card</h3>
+        <h3>Developer tools</h3>
 
         <div class="row">
             <div class="col-md-8">
                 <div style="display: block;">
                     <canvas baseChart width="400" height="400"
+                            *ngIf="isDataAvailable"
                             [datasets]="lineChartData"
                             [labels]="lineChartLabels"
                             [options]="lineChartOptions"
@@ -19,9 +20,10 @@
             </div>
         </div>
 
-        <div class="row">
+        <!--<div class="row">
             <div class="col-md-12" style="margin-bottom: 10px">
-                <table class="table table-responsive table-condensed">
+                <table class="table table-responsive table-condensed"
+                       *ngIf="isDataAvailable">
                     <tr>
                         <th *ngFor="let label of lineChartLabels">{{label}}</th>
                     </tr>
@@ -30,7 +32,8 @@
                     </tr>
                 </table>
             </div>
-        </div>
+        </div>-->
 
+        <button (click)="getData()">Refresh Datas</button>
     </div>
 </div>

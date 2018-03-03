@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Cors;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Temperatures.Core.Database;
@@ -21,15 +22,17 @@ namespace Temperatures.Rest.Controllers
 
         // GET api/values
         [HttpGet]
+        [EnableCors("AllowCors")]
         public Task<List<Temperature>> Get()
         {
             return this.DbContext.Temperatures.ToListAsync();
         }
 
         [HttpGet("paged/{page}")]
+        [EnableCors("AllowCors")]
         public Task<List<Temperature>> GetPaged(int page)
         {
-            int pageSize = 5;
+            int pageSize = 10;
             return this.DbContext.Temperatures.Skip(pageSize * (page - 1)).Take(pageSize).ToListAsync();
         }
     }

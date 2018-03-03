@@ -12,19 +12,19 @@ export class TemperatureService {
         private http: Http,
     )
     {
-        this.uri = "http://localhost:3000/data";
+        this.uri = "http://localhost:22801/api/temperatures";
     }
 
     /**
      * Method for getting user data.
      * @returns {Observable<String>}
      */
-    //get(): Observable<Temperature> {
-    get(): Observable<any> {
+    get(): Observable<Array<Temperature>> {
         let headers = new Headers({ "Content-Type": "application/json" });
         let options = new RequestOptions({ headers: headers });
 
-        return this.http.get(this.uri + "/all", options)
+        //return this.http.get(this.uri, options)
+        return this.http.get(this.uri + "/paged/5", options)
             .map((response: Response) => {
                 let result = response.text();
                 return JSON.parse(result);
